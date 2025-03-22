@@ -131,18 +131,19 @@
   </main>
 
   <script>
-    document.getElementById("login-form").addEventListener("submit", function (e) {
-      e.preventDefault();
+  document.getElementById("login-form").addEventListener("submit", function (e) {
+    e.preventDefault();
 
-      const username = document.getElementById("username").value.trim();
-      const password = document.getElementById("password").value.trim();
+    const username = document.getElementById("username").value.trim();
+    const password = document.getElementById("password").value.trim();
 
-      if (username === "jason.cat@campcat.org" && password === "Openhearts!") {
-        window.location.href = "https://darianbenitezsanchez2143.github.io/wallet/";
-      } else {
-        alert("Invalid username or password. Please try again.");
-      }
-    });
-  </script>
+    if (username === "jason.cat@campcat.org" && password === "Openhearts!") {
+      window.location.href = "https://darianbenitezsanchez2143.github.io/wallet/";
+    } else {
+      alert("Invalid username or password. Please try again.");
+    }
+  });
+</script>
+
 </body>
 </html>
